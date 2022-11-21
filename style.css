@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+.container {
+    height: 100vh;
+    background-color: rgb(185, 183, 183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 350px;
+    background-color: white;
+    width: 390px;
+}
+
+img {
+    padding-top: 30px;
+    margin-left: 30px;
+    height: 60px;
+}
+
+h1 {
+    margin: 20px 20px;
+}
+
+input {
+    border-style: none;
+    margin-left: 20px;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    width: 345px;
+}
+
+p {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
